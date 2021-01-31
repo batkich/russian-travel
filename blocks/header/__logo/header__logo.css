@@ -1,0 +1,8 @@
+.header__logo {
+  margin: 0;
+  align-self: end;
+  justify-self: start;
+  width: 176px;
+  height: 52px;
+  color: #fff;
+}
