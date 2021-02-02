@@ -11,4 +11,6 @@
   color: #fff;
   padding-top: 32px;
   padding-bottom: 64px;
+  grid-area: subtitle;
+  justify-self: center;
 }

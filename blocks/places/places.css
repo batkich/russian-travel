@@ -1,0 +1,11 @@
+.places {
+  margin: 0;
+  grid-area: places;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 92px;
+  padding-bottom: 92px;
+}

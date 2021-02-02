@@ -1,0 +1,8 @@
+.intro {
+  margin: 0;
+  grid-area: intro;
+  max-width: 690px;
+  padding-top: 92px;
+  padding-bottom: 92px;
+  padding-left: 100px;
+}

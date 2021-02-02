@@ -3,5 +3,6 @@
   background-image: url(../../../images/lead-polka.png);
   width: 984px;
   height: 615px;
-  align-self: center;
+  grid-area: image;
+  justify-self: center;
 }

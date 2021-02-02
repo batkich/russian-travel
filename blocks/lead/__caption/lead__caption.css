@@ -1,8 +1,6 @@
 .lead__caption {
   margin: 0;
-  padding-top: 8px;
   max-width: 158px;
-  max-height: 14px;
   align-self: start;
   justify-self: end;
   text-transform: uppercase;
@@ -13,5 +11,9 @@
   line-height: 14px;
   letter-spacing: 0.15em;
   text-align: right;
+  grid-area: caption;
+  justify-self: start;
   white-space: nowrap;
+  text-align: right;
 }
+
