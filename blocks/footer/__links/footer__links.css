@@ -1,0 +1,9 @@
+.footer__links {
+  margin: 0;
+  list-style-type: none;
+  display: grid;
+  padding: 0;
+  grid-template-rows: minmax(min-content, max-content);
+  grid-template-columns: repeat(5, minmax(min-content, max-content));
+  gap: 18px;
+}

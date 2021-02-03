@@ -10,3 +10,7 @@
   text-decoration-line: underline;
   color: #FFF;
 }
+
+.place__link:hover {
+  opacity: 0.8;
+}
