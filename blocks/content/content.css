@@ -1,8 +1,9 @@
 .content {
-  margin: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
   display: grid;
-  grid-template-columns: 1fr minmax(min-content, max-content) 1fr;
-  grid-template-rows: repeat(5, minmax(min-content, max-content));
+  grid-template-columns: 1fr fit-content(1280px) 1fr;
+  grid-template-rows: repeat(5, fit-content(1280px));
   grid-template-areas:
   ". lead ."
   ". intro ."

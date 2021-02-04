@@ -1,8 +1,17 @@
 .cover {
   margin: 0;
+  box-sizing: border-box;
   grid-area: cover;
   display: grid;
-  grid-template-columns: minmax(min-content, max-content);
+  grid-template-columns: fit-content(1184px);
   grid-template-rows: repeat(2,minmax(min-content, max-content)) 1fr 1fr;
   padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    grid-template-columns: fit-content(1024px);
+    margin-left: -48px;
+    margin-right: -48px;
+  }
 }

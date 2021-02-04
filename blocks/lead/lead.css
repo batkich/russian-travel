@@ -1,17 +1,23 @@
 .lead {
   margin: 0;
   grid-area: lead;
-  padding-left: 100px;
-  padding-right: 100px;
+  box-sizing: border-box;
+  width: 100%;
   color: #fff;
   display: grid;
   justify-content: center;
   align-content: start;
-  grid-template-rows: repeat(4, minmax(min-content, max-content));
-  grid-template-columns: 1fr minmax(min-content, max-content) 1fr;
+  grid-template-rows: repeat(4, fit-content(984px));
+  grid-template-columns: 100px fit-content(984px) 100px;
   grid-template-areas:
   ". title ."
   " . subtitle ."
   " . image ."
   " . caption .";
+}
+
+@media screen and (max-width: 1024px) {
+  .lead{
+    grid-template-columns: 0 fit-content(984px) 0;
+  }
 }
