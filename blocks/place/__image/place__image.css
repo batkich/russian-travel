@@ -6,3 +6,13 @@
   grid-row-start: 2;
   grid-row-end: 4;
 }
+
+@media all and (max-width: 320px) {
+  .place__image {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    box-sizing: border-box;
+  }
+}

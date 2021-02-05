@@ -11,3 +11,10 @@
   ". places ."
   ". cover .";
 }
+
+@media all and (max-width: 320px) {
+  .content {
+    grid-template-columns: fit-content(320px);
+    grid-template-rows: repeat(5, fit-content(320px));
+  }
+}

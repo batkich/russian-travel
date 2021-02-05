@@ -7,3 +7,11 @@
   grid-template-columns: repeat(5, minmax(min-content, max-content));
   gap: 18px;
 }
+
+@media all and (max-width: 320px) {
+  .footer__links {
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: repeat(5, minmax(min-content, max-content));
+    gap: 32px;
+  }
+}

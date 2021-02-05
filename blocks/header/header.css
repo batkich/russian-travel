@@ -6,3 +6,21 @@
   grid-template-columns: minmax(min-content, max-content) 1fr min-content;
   gap: 0 18px;
 }
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 720px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .header {
+    max-width: 320px;
+  }
+}

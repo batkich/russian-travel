@@ -13,3 +13,17 @@
   grid-area: title;
   justify-self: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    padding-top: 48px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

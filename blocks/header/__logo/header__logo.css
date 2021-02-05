@@ -6,3 +6,10 @@
   height: 52px;
   color: #fff;
 }
+
+@media all and (max-width: 320px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+}

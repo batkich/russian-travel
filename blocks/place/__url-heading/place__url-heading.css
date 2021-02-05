@@ -10,3 +10,10 @@
   color: #AAA;
   padding-bottom: 12px;
 }
+
+@media all and (max-width: 320px) {
+  .place__url-heading {
+    padding-top: 32px;
+    padding-bottom: 12px;
+  }
+}

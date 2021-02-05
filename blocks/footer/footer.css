@@ -5,3 +5,12 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media all and (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 100%;
+    align-content: flex-start;
+  }
+}
