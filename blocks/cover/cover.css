@@ -28,5 +28,7 @@
   .cover{
     grid-template-columns: fit-content(320px);
     padding-bottom: 64px;
+    margin-left: -16px;
+    margin-right: -16px;
   }
 }
