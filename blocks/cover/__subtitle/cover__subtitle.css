@@ -1,5 +1,8 @@
 .cover__subtitle {
   margin: 0;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  max-width: 360px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -8,15 +11,15 @@
   text-align: center;
   color: #FFFFFF;
   padding-top: 32px;
-  grid-row: 2/3;
-  grid-column: 1/2;
-  z-index: 1;
-  align-self: start;
+  align-self: center;
   justify-self: center;
+  z-index: 2;
+  align-self: start;
 }
  @media all and (max-width:320px) {
    .cover__subtitle {
      font-size: 14px;
      line-height: 16px;
+     max-width: 288px;
    }
  }
