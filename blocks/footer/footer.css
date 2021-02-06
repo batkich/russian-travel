@@ -1,7 +1,6 @@
 .footer {
+  box-sizing: border-box;
   margin: 0 auto;
-  max-width: 1184px;
-  max-height: 18px;
   display: flex;
   justify-content: space-between;
 }
@@ -10,7 +9,6 @@
   .footer {
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 100%;
     align-content: flex-start;
   }
 }
