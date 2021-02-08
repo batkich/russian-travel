@@ -5,7 +5,7 @@
   grid-area: covert;
   display: grid;
   grid-template-columns: fit-content(1184px);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: fit-content(1184px);
   padding-bottom: 92px;
   position: relative;
   z-index: 1;
@@ -14,18 +14,22 @@
 @media screen and (max-width: 1230px) {
   .cover {
     grid-template-columns: fit-content(1024px);
+    grid-template-rows: fit-content(1024px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
     grid-template-columns: fit-content(768px);
+    grid-template-rows: fit-content(768px);
+    padding-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover{
     grid-template-columns: fit-content(320px);
+    grid-template-rows: fit-content(320px);
     padding-bottom: 64px;
   }
 }
