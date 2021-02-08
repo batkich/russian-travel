@@ -2,16 +2,14 @@
   margin: 0;
   box-sizing: border-box;
   grid-area: places;
-  width: 100%;
+  max-width: 984px;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 100px;
-  padding-right: 100px;
   padding-top: 92px;
   padding-bottom: 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1276px) {
   .places {
     padding-left: 0;
     padding-right: 0;
@@ -25,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
   .places {
     padding-top: 64px;
     padding-bottom: 66px;

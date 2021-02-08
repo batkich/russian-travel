@@ -1,12 +1,14 @@
 .footer__link {
   margin: 0;
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   color: #FFF;
   text-decoration: none;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 .footer__link:hover {
@@ -14,7 +16,7 @@
   transition: opacity 0.2s linear 0.1s;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 730px) {
   .footer__link {
     font-size: 24px;
     line-height: 24px;

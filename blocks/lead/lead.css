@@ -2,23 +2,24 @@
   margin: 0;
   grid-area: lead;
   box-sizing: border-box;
-  width: 100%;
+  max-width: 984px;
   color: #fff;
   display: grid;
   justify-content: center;
   align-content: start;
   grid-template-rows: repeat(4, fit-content(984px));
-  grid-template-columns: 100px fit-content(984px) 100px;
+  grid-template-columns: fit-content(984px);
   grid-template-areas:
-  ". title ."
-  " . subtitle ."
-  " . image ."
-  " . caption .";
+  "title"
+  "subtitle"
+  "image"
+  "caption";
 }
 
 @media screen and (max-width: 1024px) {
   .lead{
     grid-template-columns: fit-content(928px);
+    padding: 0 48px;
   }
 }
 
@@ -26,6 +27,7 @@
   .lead {
     grid-template-columns: fit-content(768px);
     grid-template-rows: repeat(4, fit-content(768px));
+    padding: 0;
   }
 }
 

@@ -7,7 +7,7 @@
   max-width: 484px;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 720px) {
   .place__paragraph {
     grid-column: 1/2;
     grid-row: 5/6;

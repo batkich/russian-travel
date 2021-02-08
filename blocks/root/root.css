@@ -6,14 +6,15 @@
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1230px) {
   .root {
-    padding: 28px 24px 24px;
+    padding: 28px 0 24px;
   }
 }
 
-@media all and (max-width: 320px) {
+
+@media all and (max-width: 680px) {
   .root {
-    padding: 16px;
+    padding: 16px 0 24px;
   }
 }

@@ -1,15 +1,25 @@
 .content {
   margin: 0 auto;
+  max-width: 1184px;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 1fr fit-content(1280px) 1fr;
-  grid-template-rows: repeat(5, fit-content(1280px));
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: 100px fit-content(984px) 100px;
+  grid-template-rows: repeat(5, fit-content(984px));
   grid-template-areas:
   ". lead ."
   ". intro ."
   "photo-grid photo-grid photo-grid"
   ". places ."
-  ". cover .";
+  "covert covert covert";
+}
+
+@media screen and (max-width: 1230px) {
+  .content {
+    grid-template-columns: fit-content(928px);
+    grid-template-rows: repeat(5, fit-content(928px));
+  }
 }
 
 @media all and (max-width: 320px) {
@@ -18,3 +28,4 @@
     grid-template-rows: repeat(5, fit-content(320px));
   }
 }
+
