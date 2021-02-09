@@ -19,7 +19,6 @@
 @media screen and (max-width: 1024px) {
   .lead{
     grid-template-columns: fit-content(928px);
-    padding: 0 48px;
   }
 }
 

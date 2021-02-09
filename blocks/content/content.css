@@ -22,6 +22,27 @@
   }
 }
 
+@media screen and (max-width: 860px) {
+  .content {
+    grid-template-areas:
+    ". lead ."
+    "intro intro intro"
+    "photo-grid photo-grid photo-grid"
+    "places places places"
+    "covert covert covert";
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    grid-template-areas:
+    ". lead ."
+    ". intro ."
+    "photo-grid photo-grid photo-grid"
+    ". places ."
+    "covert covert covert";
+  }
+}
 @media all and (max-width: 320px) {
   .content {
     grid-template-columns: fit-content(320px);

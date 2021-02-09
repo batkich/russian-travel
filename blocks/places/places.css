@@ -6,20 +6,27 @@
   display: flex;
   flex-wrap: wrap;
   padding-top: 92px;
-  padding-bottom: 92px;
+  padding-bottom: 44px;
 }
 
 @media screen and (max-width: 1276px) {
   .places {
+    max-width: 928px;
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .places{
+    justify-content: center;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
     padding-top: 88px;
-    padding-bottom: 88px;
+    padding-bottom: 42px;
   }
 }
 
